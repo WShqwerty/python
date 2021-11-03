@@ -1,4 +1,5 @@
 from urllib import request
+import mysql.connector
 
 def url_baidu():
     url = 'https://www.baidu.com'
@@ -8,7 +9,9 @@ def url_baidu():
 def add(a, b):
     return a+b
 
+
 if __name__ == "__main__":
     print('hello world!')
     print(f'num = {add(3, 4)}')
-    url_baidu()
+    # url_baidu()
+ 
