@@ -1,1 +1,2 @@
-document.querySelector('video').playbackRate = 10.0;
+chrome网页视频加速：
+在console中输入：document.querySelector('video').playbackRate = 10.0;
